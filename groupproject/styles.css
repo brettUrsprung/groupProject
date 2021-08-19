@@ -80,13 +80,15 @@ h3{
     padding: 50px;
 }
 
-.container-fluid{
+.container2{
     background-color:#0c63ff;
     padding-top: 50px;
     padding-bottom: 50px;
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
     
 }
 
@@ -106,4 +108,26 @@ h3{
     margin-right: -15px;
     margin-left: -15px;
     align-items: center;
+    margin:0 auto;
+}
+
+footer{
+    padding: 50px 0;
+}
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.copyright{
+    color: #87909e;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 10px;
+    text-align: center;
 }
