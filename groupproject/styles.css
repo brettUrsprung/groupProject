@@ -1,12 +1,20 @@
 .tagline {
     position: relative;
     text-align: center;
+    margin-top: 6em;
+    margin-bottom: 10em;
 }
 
 .col {
     text-align: center;
+    margin-bottom: 6em;
 }
 
-.columns {
-    margin-top: 50px;
+.image {
+    max-width: 475px;
+    height: auto;
+}
+
+.card-body {
+    border: none;
 }
