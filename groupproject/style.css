@@ -1,0 +1,66 @@
+body {
+	background-color: white;
+	position: relative;
+	font-family: 'Poppins', sans-serif;
+	font-weight: medium;
+}
+nav a{
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+
+	margin: auto;
+ 	padding: 10px 300px ;
+	 display: block;
+	 max-height: 3rem;
+	 width: auto;
+}
+
+.started button {
+	font-size: 14px;
+	border-color: #0c63ff;
+	background-color: #0c63ff;
+	padding: 13px 20px;
+}
+
+.hire button{
+	padding: 10px;
+	font-size: 14px;
+}
+
+.jumbotron {
+	background-image:url(https://f.hubspotusercontent40.net/hub/2577343/hubfs/new%20website%20hero%20background%20image%20%281%29.png?width=2880&name=new%20website%20hero%20background%20image%20%281%29.png);
+	padding: 20%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	margin-top: -40px;
+	background-attachment: fixed;
+	background-position:  center ;
+	font-size: 14px; 
+
+	/* background: rgba(51, 50, 61, 0.50); */
+}
+
+.jumbotron p{
+	color: #fff;
+	text-align: center;
+}
+
+.jumbotron h1 {
+	top:18;
+	left:0;
+	padding-left: 20px;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+/* 
+@media (min-width: 768px) {
+
+	background-image:url(https://f.hubspotusercontent40.net/hub/2577343/hub…website%20hero%20background%20image%20%281%29.png);
+} */
