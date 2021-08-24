@@ -4,10 +4,25 @@ body {
 	font-family: 'Poppins', sans-serif;
 	font-weight: medium;
 }
+h1 { margin-bottom: 15px; }
+p { margin-top: 20px; }
+
 nav a{
-	font-size: 16px;
+	font-size: 14.4px;
 	font-family: 'Poppins', sans-serif;
+	padding:  0px 16px;
+	align-items: center;
+	
 }
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /*remove the gap so it doesn't close*/
+    color:  #87909e;
+ }
+
+ .dropdown-item {
+ 	color:  #87909e;
+ }
 
 .logo{
 
@@ -23,11 +38,16 @@ nav a{
 	border-color: #0c63ff;
 	background-color: #0c63ff;
 	padding: 13px 20px;
+	margin-right: 20px;
 }
 
 .hire button{
 	padding: 10px;
 	font-size: 14px;
+}
+
+.justify-content-end {
+	position:  center;
 }
 
 .jumbotron {
@@ -41,6 +61,7 @@ nav a{
 	background-attachment: fixed;
 	background-position:  center ;
 	font-size: 14px; 
+	box-shadow:inset 0 0 0 2000px rgba(51, 50, 61, 0.50);
 
 	/* background: rgba(51, 50, 61, 0.50); */
 }
