@@ -6,6 +6,7 @@
     font-style: normal;
     color: #30343B;
     margin-bottom:50px;
+    padding-top:50px;
 }
 
 
@@ -196,3 +197,7 @@ footer{
     height: auto;
 }
 
+.no-center{
+    align-items: normal;
+    margin-bottom: 1em;
+}
