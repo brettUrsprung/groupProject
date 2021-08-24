@@ -1,3 +1,184 @@
+
+.heading {
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-weight: 600;
+    font-style: normal;
+    color: #30343B;
+    margin-bottom:50px;
+}
+
+
+.card{
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px;
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+    border: solid 1px;
+    border-color: #e5e7ea;
+    height: 100%;
+    box-shadow: rgb(0 0 0 / 20%) 0px 4px 6px 0px;
+    padding: 16px 32px 32px 32px;
+
+
+}
+
+.p-body{
+    font-size: 16px;
+    color: #87909e;
+    margin-top:16px;
+    margin-bottom: 20px;
+    font-family: Poppins;
+    font-weight: normal;
+}
+
+.h5-info{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: 35px;
+}
+
+.h3-info{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    padding-bottom: 14px;
+}
+
+.card-title{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    padding:0; 
+}
+
+.card-text{
+    font-family: Poppins;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.btn-primary{
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff !important;
+}
+
+.card-body{
+    padding:0;
+    border: none;
+}
+
+.card-img-top{
+    width: 96px;
+    height: 96px;
+    margin-top: -48px;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 81, 255);
+}
+
+.contain{
+    padding: 50px;
+}
+
+
+.banner{
+    background-color:#0c63ff;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    margin-right:100px;
+    margin-left:100px;
+
+}
+
+.white-hire{
+    color: white;
+    margin-bottom: 10px;
+    padding:0;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.sub{
+    color: white;
+    font-family: Poppins;
+    font-size:16px;
+}
+
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+    align-items: center;
+}
+
+footer{
+    padding-top: 50px;
+
+}
+
+
+.bcontainer{
+    background-color:#0c63ff;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+.copyright{
+    color: #87909e;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 10px;
+    text-align: center;
+    padding-top:80px;
+}
+
+.tt{
+    max-width: 100%;
+    height: auto;
+}
+
+.logos{
+    padding-top: 25px;
+    display: inline;
+    float: left;
+    max-width: 100%;
+    height: auto;
+}
+
+.social{
+    height:40px;
+    
+    width: 100%;
+    padding: 5px;
+}
+
+.hire{
+    font-size: 20px;
+}
+
+.footer-menu{
+    list-style: none;
+    padding-top:0;
+    float:left
+}
+
+.li-social{
+    list-style: none;
+    float: left;
+}
+
+
 .tagline {
     position: relative;
     text-align: center;
@@ -15,6 +196,3 @@
     height: auto;
 }
 
-.card-body {
-    border: none;
-}
