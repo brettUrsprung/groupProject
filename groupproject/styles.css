@@ -24,7 +24,7 @@
 
 }
 
-p{
+.p-body{
     font-size: 16px;
     color: #87909e;
     margin-top:16px;
@@ -33,7 +33,7 @@ p{
     font-weight: normal;
 }
 
-h5{
+.h5-info{
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
@@ -41,7 +41,7 @@ h5{
     padding-bottom: 35px;
 }
 
-h3{
+.h3-info{
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
@@ -161,11 +161,11 @@ footer{
     padding: 5px;
 }
 
-h2{
+.hire{
     font-size: 20px;
 }
 
-ul{
+.footer-menu{
     list-style: none;
     padding-top:0;
     float:left
