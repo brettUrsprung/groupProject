@@ -2,65 +2,124 @@ body {
 	background-color: white;
 	position: relative;
 	font-family: 'Poppins', sans-serif;
-	font-weight: medium;
+	line-height:  0.9 rem;
 }
+
+#nav {
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+	margin-top: 80px;
+  	width: 100%;
+    float: right;
+  	display: block;
+  	overflow: hidden;
+}
+
 nav a{
-	font-size: 16px;
+	font-size: 14.4px;
 	font-family: 'Poppins', sans-serif;
+	color:  #87909e;
+	margin-left:  350px;
+
+}
+
+.nav-link{
+padding-right: 100px;
+}
+
+.navbar-nav > li{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#navbarDropdown.nav-link.dropdown-toggle, .nav-link {
+
+	margin-left: -10px;
+	margin-right: 50px;
+}
+
+a:hover{
+
+color: #87909e;
+
 }
 
 .logo{
 
-	margin: auto;
- 	padding: 10px 300px ;
-	 display: block;
-	 max-height: 3rem;
-	 width: auto;
+ 	padding: 2px 140px ;
+	display: block;
+	max-height: 3rem;
+	width: auto;
+}
+
+#brand{
+	margin: 0;
+	padding: -50px;
+	position: absolute;
 }
 
 .started button {
-	font-size: 14px;
+	font-size: 15px;
 	border-color: #0c63ff;
 	background-color: #0c63ff;
-	padding: 13px 20px;
+	padding: 10px 20px;
+	padding-top: 14px;
+
+	margin-left: 280px;
+	margin-right: 40px;
+	
 }
 
 .hire button{
-	padding: 10px;
-	font-size: 14px;
+	padding: 14px 19px;
+	font-size: 15px;
 }
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /*remove the gap so it doesn't close*/
+    color:  #87909e;
+ }
+
+ .dropdown-item {
+ 	color:  #87909e;
+ }
 
 .jumbotron {
 	background-image:url(https://f.hubspotusercontent40.net/hub/2577343/hubfs/new%20website%20hero%20background%20image%20%281%29.png?width=2880&name=new%20website%20hero%20background%20image%20%281%29.png);
-	padding: 20%;
+	padding: 18%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 100%;
+	max-width: 100%;
 	height: 100%;
-	margin-top: -40px;
-	background-attachment: fixed;
+	margin-top: 7px;
+	background-attachment: static;
 	background-position:  center ;
 	font-size: 14px; 
+	box-shadow:inset 0 0 0 2000px rgba(51, 50, 61, 0.50);
 
-	/* background: rgba(51, 50, 61, 0.50); */
 }
 
 .jumbotron p{
 	color: #fff;
-	text-align: center;
+	text-align: center !important;
+	align-items: center;
+	position: relative;
+	font-style:  normal;
+	font-weight: normal;
+	box-sizing: border-box;
+	font-size: 15px;
+
 }
 
 .jumbotron h1 {
-	top:18;
-	left:0;
 	padding-left: 20px;
 	color: white;
 	text-align: center;
 	font-size: 40px;
 	font-weight: bold;
 }
-/* 
-@media (min-width: 768px) {
 
-	background-image:url(https://f.hubspotusercontent40.net/hub/2577343/hub…website%20hero%20background%20image%20%281%29.png);
-} */
+h1 { margin-bottom: 15px; }
+p { margin-top: 20px; }
