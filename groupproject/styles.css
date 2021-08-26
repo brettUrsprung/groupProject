@@ -201,3 +201,53 @@ footer{
     align-items: normal;
     margin-bottom: 1em;
 }
+
+.readyImage {
+   height: 325px;
+   width: auto;
+   padding-left: 3em;
+}
+
+.trainImage {
+    height: 325px;
+    width: auto;
+    padding-left: 3em;
+ }
+ 
+
+.rowFirst {
+    max-height: 325px;
+}
+
+.paraOne {
+    text-align: left;
+    padding-left: 6em;
+}
+
+.paraTwo{
+    text-align: right;
+}
+
+.toHire .btn {
+    visibility: visible;
+    background-color: #0c63ff;
+}
+
+.built {
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+
+.bgContainer{
+   display: block;
+   background-color: aqua;
+
+}
+
+.vid {
+    max-width: auto;
+    max-height: 450px;
+    padding-left: 17em;
+    
+}
